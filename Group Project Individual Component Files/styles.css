@@ -1,0 +1,254 @@
+/* change the item boxes inside the menu */
+.items {
+  width: 90%;
+  background-color: rgb(213, 210, 205);
+  color: black;
+  margin: 15px 5px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+html
+{
+    overflow: auto;
+}
+
+body {
+  background-color: rgb(236, 232, 223);
+  overflow: auto;
+}
+
+h1 {
+  text-align:center;
+}
+
+#formid {
+  text-align: center;
+  width: 60px;
+}
+textarea {
+  border-radius: 5px;
+}
+text {
+  border-radius: 5px;
+}
+
+.blowfeldsign {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+/* adds black background */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+/* style links in nav bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #333;
+  border-spacing: 1px;
+}
+
+/* color change on hover */
+.topnav a:hover {
+  background-color: rgb(233, 232, 232);
+  color: black;
+}
+
+/* color of active/current link */
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+.topText{
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+/* Info section regarding title and description */
+.addInfo{
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+
+.flex-child{
+  height: 600px;
+  width: 25%;
+  position: absolute;
+  border: 2px solid black;
+  z-index: 1;
+  left: 10px;
+  overflow-x: hidden; /* no horizontal scroll */
+  overflow-y: auto;
+  padding: 10px 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.flex-child:first-child{
+  margin-left: 10px;
+}
+
+.dropArea {
+  border-radius: 5px;
+  position: absolute;
+  height: 500px;
+  width: 60%;
+  right: 10px;
+  padding: 60px 15px;
+  margin-left: 10px;
+  margin: 10px;
+  overflow-x: hidden; /* no horizontal scroll */
+  overflow-y: auto;
+  border: 2px solid black;
+}
+
+#publish{
+  position: relative;
+  font-weight: bold;
+  
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 90%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-radius: 5px;
+  bottom: 0;
+}
+
+.fields{
+  margin: 2px;
+  width: 80%;
+}
+
+/* for dropdown item */
+#dropdownItem label, select {
+  display: inline-block;
+  margin: 10px 0;
+  margin: 5px;
+  width: 100%;
+}
+
+#dropdownItem #list {
+  width: 80%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.flex-child form input[type='text'] {
+  outline: none;
+  color: #555;
+}
+
+.flex-child form input[type='text']:focus {
+  box-shadow: 0 0 5px lightskyblue;
+  border: 1px solid lightskyblue;
+}
+
+/* hoverable dropdown menu box (return * / if other testing doesn't work)
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+
+/* dropdown menu content 
+.dropdown-content{
+  display: none;
+  position: absoulte;
+  width: 100%;
+  overflow: auto;
+}
+*/
+
+
+/* hoverstate for dropdown menu button 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* for dropdown list 
+ul{
+  padding: 0;
+  list-style: none;
+  background: lightgrey;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 20px;
+  text-align: center;
+}
+/* mainly for the button 
+ul li a{
+  display: block;
+  padding: 2px;
+  color: black;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: white;
+  background: black;
+}
+ul li ul.dropdown-content{
+  min-width: 100%;
+  display: none;
+  position: static;
+  z-index: 99;
+}
+ul li ul.dropdown-menu li{
+  display: block;
+}
+
+span{
+  cursor: pointer;
+  display: flexbox;
+}
+
+span::after{
+  float: right;
+  right: 10%;
+  content: ":";
+  margin-right: 5px;
+}
+.slide {
+  clear: both;
+  width: 100%;
+  height: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: center;
+  transition: height .5s ease;
+}
+.slide li {
+  padding: 30px;
+}
+#touch {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch:checked + .slide{
+  height: 100px;
+}
+*/
